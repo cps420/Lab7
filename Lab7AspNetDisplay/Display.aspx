@@ -11,6 +11,12 @@
         <div>
             <asp:GridView ID="grdStudents" runat="server"></asp:GridView>
         </div>
+        <div>
+            <asp:Button ID="btnAll" runat="server" Text="All Students" OnClick="btnAll_Click" />
+            <asp:Button ID="btnHighAvgs" runat="server" Text="Students with average > 90%." OnClick="btnHighAvgs_Click" />
+            <asp:Button ID="btnLowAvg" runat="server" Text="Students with average < 90%." OnClick="btnLowAvg_Click" />
+            <asp:Button ID="btnPerfects" runat="server" Text="Students who scored 100 on a test." OnClick="btnPerfects_Click" />
+        </div>
     </form>
 </body>
 </html>

@@ -10,7 +10,7 @@
 namespace Lab7AspNetDisplay {
     
     
-    public partial class Display {
+    public partial class Books {
         
         /// <summary>
         /// form1 control.
@@ -22,48 +22,57 @@ namespace Lab7AspNetDisplay {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// grdStudents control.
+        /// lblBooks control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView grdStudents;
+        protected global::System.Web.UI.WebControls.Label lblBooks;
         
         /// <summary>
-        /// btnAll control.
+        /// btnPopulateBooks control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnAll;
+        protected global::System.Web.UI.WebControls.Button btnPopulateBooks;
         
         /// <summary>
-        /// btnHighAvgs control.
+        /// btnJoin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnHighAvgs;
+        protected global::System.Web.UI.WebControls.Button btnJoin;
         
         /// <summary>
-        /// btnLowAvg control.
+        /// lblJoin control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnLowAvg;
+        protected global::System.Web.UI.WebControls.Label lblJoin;
         
         /// <summary>
-        /// btnPerfects control.
+        /// lstBooks control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnPerfects;
+        protected global::System.Web.UI.WebControls.GridView lstBooks;
+        
+        /// <summary>
+        /// lstRealBooks control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.ListView lstRealBooks;
     }
 }
